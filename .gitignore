@@ -1,0 +1,57 @@
+# Node.js
+node_modules/
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# .env dosyası, çevre değişkenlerini içeriyorsa
+.env
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# yarn
+yarn-error.log
+yarn-debug.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Sublime Text files
+*.sublime-workspace
+*.sublime-project
+
+# Vim files
+*.swp
+
+# OS generated files
+.DS_Store?
+ehthumbs.db
+Thumbs.db
