@@ -77,13 +77,13 @@ const forgotPassword = async (req, res) => {
         const transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
-                user: 'c.enesbilen@gmail.com',
-                pass: 'Karakartal1903??'
+                user: 'your_mail@gmail.com',
+                pass: 'your_password'
             },
         });
 
         const mailOptions = {
-            from: 'c.enesbilen@gmail.com',
+            from: 'your_mail@gmail.com',
             to: user.email,
             subject: 'Şifre Sıfırlama Talebi',
             text: `Şifre sıfırlama talebinizi tamamlamak için bu linke tıklayın: http://localhost:5000/forgot-password/${resetToken}`,
